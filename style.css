@@ -85,3 +85,24 @@ form{
     border-radius: 5px;
     box-shadow: 15px 10px 12px rgba(0, 0, 0, 0.8);
 }
+
+@media (min-width:320px){
+  #serach-result{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width:768px){
+  #serach-result{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width:1024px){
+  #serach-result{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
